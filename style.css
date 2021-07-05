@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 85px 50px;
 }
 
 .bloc-md {
@@ -269,7 +269,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 45px;
 }
 
 .row-no-gutters {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +701,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 12px auto;
 }
 
 h2 {
@@ -717,13 +719,12 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF;
 }
 
 h4 {
@@ -740,6 +741,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -753,8 +755,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: rgb(27 27 27 / 70%);
+    padding: 30px;
 }
 
 .bold-link {
@@ -775,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3976c;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +824,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1041,33 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.italic {
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.bold {
+    font-weight: bold;
+    color: #f3976c;
+}
+
+.max-width {
+    width: 70%;
+    margin: auto;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+.desc {
+    margin: 15px auto;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.padding-t {
+    padding-top: 40px;
 }
